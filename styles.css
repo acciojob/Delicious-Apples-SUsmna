@@ -1,1 +1,76 @@
 /* your code here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.photo-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.photo-main {
+    width: 100%;
+}
+
+.photo-album ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.photo-album ul li {
+    margin-right: 10px;
+}
+
+.details {
+    flex: 1;
+}
+
+.price {
+    text-align: center;
+}
+
+.color {
+    margin-bottom: 20px;
+}
+
+.variants {
+    list-style-type: none;
+    padding: 0;
+}
+
+.variants li {
+    margin-bottom: 5px;
+}
+
+.benefits {
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
